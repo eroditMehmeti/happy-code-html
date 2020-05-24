@@ -1,0 +1,216 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/soccer.css">
+
+    <!-- header css -->
+    <link rel="stylesheet" href="css/header.css">
+    
+    <!-- footer css -->
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="javascript/myJs.js"></script>
+    <title>Soccer</title>
+
+
+</head>
+<body>
+    
+    <header class="header" style="background-color: black;">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="sneakers.html">Sneakers</a></li>
+            <li><a href="home.html">Running</a></li>
+            <li><a href="soccer.html">Soccer</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </header>
+
+    <div id="mainPhotoPanel">
+        <img src="images/football.jpg" alt="">
+    </div>
+
+
+    <div id="container">
+
+        <div id="asideLeft">
+          <button class="button" onclick="artificialGrassDiv()">Artificial Grass</button>
+          <button class="button" onclick="indoorDiv()">Indoor</button>
+          <button class="button" onclick="softGroundDiv()">Soft Ground</button>
+          <button class="button" onclick="mainMenuDiv()">Multi-Ground</button>
+
+        </div>
+
+        
+        <!-- MAIN MENU ITEMS -->
+        <div id="mainMenu">
+
+            <div class="menuItemsPanel">
+                <div class="menuItems">
+                    <img src="images/nikePhantom.jpg" class="menuImages">
+                    <h2>Nike Phantom Vision</h2>
+                </div>
+
+                <div class="menuItems">
+                    <img src="images/nikeMercurial.jpg" class="menuImages">
+                    <h2>Nike Mercurial Vapor 13</h2>
+                </div>
+
+            </div>
+
+            <div class="menuItemsPanel">
+                <div class="menuItems">
+                    <img src="images/nikeTiempo.jpg" class="menuImages">
+                    <h2>Nike Tiempo Legend 8</h2>
+                </div>
+
+                <div class="menuItems">
+                    <img src="images/nikeCr7.jpg" class="menuImages">
+                    <h2>Nike Mercurial Superfly 7</h2>
+                </div>
+                
+            </div>
+            
+        </div>
+        <!-- END OF MAIN MENU ITEMS -->
+
+        <!-- ARTIFICIAL GRASS ITEMS -->
+        <div id="artificialGrassDiv">
+
+            <div class="menuItemsPanel">
+                <div class="menuItems">
+                    <img src="images/aGrass1.jpg" class="menuImages">
+                    <h2>Nike Mercurial Vapor 13</h2>
+                </div>
+
+                <div class="menuItems">
+                    <img src="images/aGrass2.jpg" class="menuImages">
+                    <h2>Nike Mercurial Vapor 13</h2>
+                </div>
+
+            </div>
+
+            <div class="menuItemsPanel">
+                <div class="menuItems">
+                    <img src="images/aGrass3.jpg" class="menuImages">
+                    <h2>Nike Mercurial Superfly 7</h2>
+                </div>
+
+                <div class="menuItems">
+                    <img src="images/aGrass4.jpg" class="menuImages">
+                    <h2>Nike Mercurial Vapor 13</h2>
+                </div>
+                
+            </div>
+            
+        </div>
+        <!-- END OF ARTIFICIAL GRASS ITEMS -->
+
+        <!-- INDOOR ITEMS -->
+        <div id="indoorDiv">
+
+            <div class="menuItemsPanel">
+                <div class="menuItems">
+                    <img src="images/indoor1.jpg" class="menuImages">
+                    <h2>Nike Mercurial Vapor 13</h2>
+                </div>
+
+                <div class="menuItems">
+                    <img src="images/indoor2.jpg" class="menuImages" >
+                    <h2>Nike Tiempo Legend 8</h2>
+                </div>
+
+            </div>
+
+            <div class="menuItemsPanel">
+                <div class="menuItems">
+                    <img src="images/indoor3.jpg" class="menuImages">
+                    <h2>Nike Tiempo Legend 8</h2>
+                </div>
+
+                <div class="menuItems">
+                    <img src="images/indoor4.jpg" class="menuImages">
+                    <h2>Nike Mercurial Superfly 7</h2>
+                </div>
+                
+            </div>
+            
+        </div>
+        <!-- END OF INDOOR ITEMS -->
+
+        <!-- SOFT GROUND ITEMS -->
+        <div id="softGroundDiv">
+
+            <div class="menuItemsPanel">
+                <div class="menuItems">
+                    <img src="images/softGround1.jpg" class="menuImages">
+                    <h2>Nike Mercurial Vapor 13</h2>
+                </div>
+
+                <div class="menuItems">
+                    <img src="images/softGround2.jpg" class="menuImages">
+                    <h2>Nike PhantomVNM Academy </h2>
+                </div>
+
+            </div>
+
+            <div class="menuItemsPanel">
+                <div class="menuItems">
+                    <img src="images/softGround3.jpg" class="menuImages">
+                    <h2>Nike Phantom Venom Elite </h2>
+                </div>
+
+                <div class="menuItems">
+                    <img src="images/softGround4.jpg" class="menuImages">
+                    <h2>Nike Phantom Vision Elite</h2>
+                </div>
+                
+            </div>
+            
+        </div>
+        <!-- END OF SOFT GROUND ITEMS -->
+
+
+    </div>
+
+    <footer class="footer" style="background-color: black;">
+        <div class="footer-items">
+            <h2>My Account</h2>
+            <ul>
+                <li><a href="home.html">Manage Account</a></li>
+                <li><a href="home.html">My Orders</a></li>
+                <li><a href="home.html">Track My Order</a></li>
+                <li><a href="home.html">Sell</a></li>
+            </ul>
+        </div>
+        <div class="footer-items">
+            <h2>GET HELP</h2>
+            <ul>
+                <li><a href="home.html">Order Status</a></li>
+                <li><a href="home.html">Shipping and Delivery</a></li>
+                <li><a href="home.html">Returns</a></li>
+                <li><a href="home.html">Payment Options</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-items" style="width: 40%; justify-content: space-between;">
+            <div id="socialNetworks">
+                <img src="images/facebook.png" alt="FACEBOOK LOGO">
+                <img src="images/instagram.png" alt="INSTAGRAM LOGO">
+                <img src="images/twitter.png" alt="TWITTER LOGO">
+            </div>
+
+            <div id="reference">
+                <p><a href="https://github.com/lorikKastratii" target="_blank">@ 2020 | Reference | All Rights Reserved</a></p>
+            </div>
+
+        </div>
+
+
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="javascript/function.js"></script>
+</body>
+</html>
